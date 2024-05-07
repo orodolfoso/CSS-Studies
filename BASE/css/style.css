@@ -1,0 +1,155 @@
+/* REGRA: VALOR (ESPECÍFICO MEDIDA) */
+
+/* p{
+    color: red;
+} */
+
+/* SELETORES BÁSICOS */
+
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+
+}
+
+h4{
+    font-size: 30px;
+}
+
+#paragrafo-especial{
+    font-style: italic;
+    color: brown;
+}
+
+/* 4 - Propriedades de texto */
+
+.basic-text{
+    font-family: Arial, sans-serif;
+    color: #47db93;
+   
+}
+
+.style-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.weighty-text{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fancy-text{
+    font-family: Verdana;
+    font-size: 30px;
+    color: #84847a;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 5 - Cores */
+/* 95% = HEX */
+/* nome de cores = NUNCA */
+/* 1% RGBA => A alpha opacidade */
+
+.hex-color{
+    /* 6 algarismos, precedidos por #, A-F 0-9 */
+    color: #FF6310;
+}
+
+.rgb-color{
+    /* Red, Green, Blue */
+    /* 0 -> mais escuro 255 -> mais claro */
+    color: rgb(34,100,200);
+}
+
+.hsl-color{
+    /* Hue, Saturation, Lightness */
+    color: hsl(357, 78%, 49%);
+}
+
+.rgba-color{
+    /* 0 => invisível, 1 => totalmente visível */
+    background-color: rgba(255, 70, 100, 0.5);
+}
+
+.rgba-color-2{
+    background-color: rgba(255, 70, 100, 1);
+}
+
+.hsla-color{
+    background-color: hsla(120, 50%, 30%, 0.3);
+}
+
+/* 6 - Estilização de link */
+
+.simple-link{
+    text-decoration: none;
+    color: #312333;
+}
+
+.fancy-link{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.hover-link{
+    text-decoration: none;
+}
+
+.hover-link:hover{
+    text-decoration: underline;
+    color: #FF6310;
+}
+
+.bold-link{
+    font-weight: 900;
+}
+
+/* 7 - Box Model */
+
+.width-height{
+    width: 200px;
+    height: 100px;
+    border: solid 2px #312333;
+    background-color: #FF6310;
+}
+
+/* Espaçamento interno que pode ser adicionado aos 4 cnatos */
+.padding-exemple{
+    width: 200px;
+    height: 100px;
+    border: solid 2px #312333;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: #47db93;
+}
+
+/* Margem = espaçamento externo  */
+
+.margin-exemple{
+    width: 200px;
+    height: 100px;
+    border: solid 2px #312333;
+    margin: 30px;
+    background-color: #84847a;
+}
+
+/* Shorthand = 1 todos 2 valores superior e lateral */
+
+
+.complete-box{
+    width: 200px;
+    height: 100px;
+    border: solid 2px #312333;
+    padding: 50px 100px;
+    margin: 10px 20px 30px 40px;
+}
+
+/* Short - Hand = 95% */
+/* ORDEM: todos os lados, cima e lateral, especificos */
+
+
+
