@@ -148,8 +148,100 @@ h4{
     margin: 10px 20px 30px 40px;
 }
 
-/* Short - Hand = 95% */
+/* Short - Hand = 99% */
 /* ORDEM: todos os lados, cima e lateral, especificos */
 
+/* 8 Positions */
 
+.static-example{
+    position: static;
+    background-color: #321;
+    border: 1px solid #000;
+}
 
+.relative-example{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    background-color: #000
+}
+
+.absolute-example{
+    position: absolute;
+    background-color: #941;
+    top: 10px;
+    left: 250px;
+}
+
+.fixed-example{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #afaefe;
+    border: 2px solid #000;
+}
+
+.sticky-example{
+    position: sticky;
+    top: 0;
+    background-color: #adadaa;
+    border: 2px solid #000;
+}
+
+/* Absolute precie de uma pai relative */
+.relative-container{
+    margin-top: 300px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.absolute-inside-relative{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #941;
+}
+
+/* 9 - Flexbox */
+
+.flex-container{
+    display: flex;
+    border: 2px solid #000;
+    padding: 10px;
+    height: 1000px;
+}
+
+.flex-item{
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    /* height: 200px; */
+}
+
+/* Começo ou fim start e end */
+
+.flex-container{
+    justify-content: flex-end;
+}
+
+/* Centro */
+
+.flex-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.flex-container{
+    flex-direction: column;
+}
+
+/* Flex sempre precisa de um elemento pai */
+/* Flexbox ajuda  a gente a posicionar o item */
+/* Para varios elementos */

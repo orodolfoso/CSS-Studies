@@ -1,0 +1,19 @@
+/* Aplicando margin */
+/* Exercício 1 */
+.margin-example{
+    margin: 30px 20px;
+}
+
+.background-highlight{
+    background-color: yellow;
+}
+
+/* Exercício 2 */
+
+.text-large h1{
+    background-color: rgb(13, 167, 228);
+}
+
+.text-large p{
+    font-size: 24px;
+}
