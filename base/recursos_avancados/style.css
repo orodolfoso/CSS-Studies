@@ -1,0 +1,45 @@
+/* Estilos de listas */
+.lista-pontos{
+    list-style-type: square;
+}
+
+.lista-numerica{
+    list-style-type: lower-roman;
+}
+
+.lista-imagem{
+    list-style-type: none;
+    list-style-image: url(img/circle.png);
+}
+
+/* 2 - Unidade de medida */
+
+
+.container{
+    width: 80%;
+    border: 1px solid blue;
+    font-size: 10px;
+}
+
+.pixel-box{
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+.percent-box{
+    width: 50%;
+    height: 100px;
+    border: 1px solid green;
+}
+
+.em-text{
+    font-size: 2em;
+}
+
+.rem-text{
+    font-size: 2rem;
+}
+
+
+
